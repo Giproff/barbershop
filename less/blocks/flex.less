@@ -1,0 +1,137 @@
+/* Файл blocks/flex.less */
+@import "../variables.less";
+@import "../mixins.less";
+
+/* Разметка блоков с помощью flex */
+
+.dim {
+    //width: 500px;
+    height: 500px;
+}
+
+
+@media @mobile-widths  {
+
+
+    .flex-container {
+        //display: flex;
+        //flex-direction: row;
+        //flex-direction: row-reverse;
+        //justify-content: center;
+        //justify-content: space-between;
+        //justify-content: space-around;
+        //justify-content: flex-end;
+
+        //flex-direction: column;
+        //align-items: stretch;
+        //align-items: flex-start;
+        //align-items: flex-end;
+        //align-items: center;
+        //align-items: baseline;
+        & div {
+            //min-height: 30px;
+            //width: 20px;
+            //background-color: red;
+            //border: 1px solid #000000;
+            //padding: 10px;
+
+            &:nth-child(2) {
+                //line-height: 50px;
+                //background-color: red;
+                //align-self: center;
+                //justify-content: flex-end;
+                //order: 3;
+            }
+            &:nth-child(3) {
+                //align-self: center;
+                //justify-content: flex-end;
+                //order: 2;
+            }
+        }
+    }
+}
+
+@media @tablet-widths  {
+
+    .flex-container {
+        //display: flex;
+        //margin-top: 150px;
+        //flex-direction: row;
+
+        //flex-direction: column;
+        //flex-direction: column-reverse;
+        //justify-content: center;
+        //justify-content: space-between;
+        //justify-content: space-around;
+        //justify-content:  flex-end;
+        //justify-content: flex-start;
+
+        //align-items: stretch;
+        //align-items: flex-start;
+        //align-items: flex-end;
+        //align-items: center;
+        //align-items: baseline;
+
+        & div {
+
+            //border: 1px solid #000000;
+            //padding: 10px;
+            }
+
+        & > div:nth-child(1) {
+                //width: 50px;
+                //background: red;
+                //order: 2;
+            }
+
+        & > div:nth-child(2) {
+                //flex-grow: 1;
+                //background: green;
+                //order: 3;
+            }
+
+        & > div:nth-child(3) {
+                //width: 50px;
+                //background: blue;
+                //order: 1;
+            }
+        }
+
+}
+
+@media @desktop-widths  {
+
+    .flex-container {
+
+        display: flex;
+
+        //align-content: stretch;
+        //align-content: flex-start;
+        //align-content: flex-end;
+        align-content: center;
+        //align-items: center;
+        //align-items: stretch;
+
+        flex-wrap: wrap;
+        //flex-direction: row;
+        //flex-direction: row-reverse;
+        //flex-direction: column;
+
+        justify-content: center;
+        //justify-content: flex-start;
+        //justify-content: space-between;
+        //justify-content: space-around;
+        //justify-content: flex-end;
+
+        & > div {
+            background-color: blue;
+            border: 1px solid #000000;
+            padding: 10px;
+
+            width: 300px;
+            height : 50px;
+            margin: 10px  10px;
+            padding: 10px;
+        }
+    }
+}

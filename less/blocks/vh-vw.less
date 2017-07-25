@@ -1,0 +1,33 @@
+/* Файл blocks/vh-vw.less */
+@import "../variables.less";
+@import "../mixins.less";
+
+/* Исправление бага при использовании размерности vw */
+@media @mobile-widths  {
+
+    .fullscreen {
+        width: 100vw;
+        max-width: 100%; /* считается от body и контент тянется только до range roller */
+        height: 100vh; /* чтобы появился вертикальный скролл */
+        background: green;
+    }
+}
+
+@media @tablet-widths  {
+    .fullscreen {
+        width: 100vw;
+        max-width: 100%;
+        height: 100vh;
+        background: red;
+    }
+}
+
+@media @desktop-widths  {
+    .fullscreen {
+        width: 100vw;
+        max-width: 100%;
+        height: 100vh;
+        background: blue;
+    }
+
+}

@@ -1,0 +1,31 @@
+/* Файл blocks/outlines.less */
+@import "../variables.less";
+@import "../mixins.less";
+
+body {
+    background: @bg-darkgrey url('/img/grey-back.jpg') x-repeat;
+    ;
+    background-size: 752px auto;
+    min-height: 750px;
+}
+
+@media @mobile-widths  {
+    body {
+        background: green  url('/img/back-mobile.jpg') x-repeat;
+        background-size: 751px auto;
+    }
+}
+/*
+@media @tablet-widths  {
+     body {
+    background: green  url('/img/back-tablet.jpg') no-repeat 50% 0px;
+    background-size: 991px auto;
+}
+}*/
+/*
+@media @desktop-widths  {
+    body {
+        background: grey  url('/img/back-desktop.jpg') no-repeat 50% 0px;
+        background-size: 1135px auto;
+    }
+} */

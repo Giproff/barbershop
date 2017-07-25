@@ -1,0 +1,112 @@
+/* Файл blocks/page-header.less */
+@import "../variables.less";
+@import "../mixins.less";
+
+.page-header {
+    /*min-height: 395px; временно для сетки */
+}
+
+.page-header__logo {
+
+    height: 85px;
+
+    text-align: center;
+}
+
+.page-header__logo img {
+
+    width: 230px;
+    height: 85px;
+}
+
+@media @mobile-widths  {
+    .page-header {
+       position: relative;
+       z-index: 1;
+
+       min-height: 135px;
+
+       background: @bg-darkgrey url("/img/grey_back.png") no-repeat center top;
+    }
+
+
+    .page-header__logo {
+
+        width: 100%;
+        height: 85px;
+        background: transparent url("/img/logo1.png") no-repeat center center;
+        z-index: 2;
+    }
+}
+
+@media @tablet-widths  {
+    .page-header {
+        /* position: relative; */
+
+        display: flex;
+        flex-direction: column;
+        //z-index: 1;
+
+        order: 1;
+        height: 469px;
+       /* padding-bottom: 75px; */
+       /* background-color: #000000;*/
+        background-size: cover;
+        background: transparent url("/img/back-tablet.jpg") no-repeat center top;
+
+    }
+
+    .page-header__logo {
+    /*  position: absolute;
+        bottom: 200px;      */
+
+        order: 2;
+        /* position: relative; */
+        //z-index: 2;
+
+        width: 100%;
+        height: 101px;
+        margin-top: 40px;
+        /* background-color: transparent;
+        background-image: url("/img/logo2.png");
+        background-repeat: no-repeat;
+        background-position: center  -9px; */
+
+
+        background: transparent url("/img/logo2.png") no-repeat center top;
+
+    }
+}
+
+@media @desktop-widths  {
+    .page-header {
+        position: relative;
+        z-index: 1;
+
+        /* height: 720px; */
+        padding-bottom: 253px;
+        background-position: center  0px;
+        background-size: cover;
+        background: transparent url("/img/back-desktop.jpg") no-repeat center top;
+
+    }
+    .page-header__logo {
+        position: absolute;
+        bottom: 440px;
+        z-index: 3;
+
+        height: 153px;
+        width: 100%;
+
+        background: transparent url("/img/logo3.png") no-repeat center top;
+     }
+}
+
+/* Блок-заглушка снизу */
+.block-mock {
+    .mock(200px);
+}
+
+.block-mock:nth-last-of-type(1) {
+    .mock(300px, green);
+}
