@@ -2,42 +2,53 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Magazine </title>
+    <title>Магазин Барбершоп мобильный</title>
 
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
-    <link href="../css/style2.css" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   </head>
-  <body class="inner-page">
-  <header class="main-header">
-    <div class="container clearfix">
-      <nav class="main-navigation">
-        <a class="logo-inner" href="index.php">
-          <img src="img/inner-logo.jpg" width="111" height="27" alt="Барбершоп 'Бородинский'">
-        </a>
-        <ul>
-          <li>
-            <a href="#">Информация</a>
+
+  <body>
+    <header class="page-header">
+      <h1 class="visually-hidden">Барбершоп «Бородинский» — истинно мужская классика</h1>
+      <div class="page-header__logo">
+      </div>
+
+      <nav class="main-nav main-nav--closed main-nav--nojs">
+
+        <button class="main-nav__toggle " type="button">Открыть меню
+        </button>
+
+      <div class="main-nav__wrapper clearfix">
+
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="index.php">Главная</a>
           </li>
-          <li>
-            <a href="#">Новости</a>
+          <li class="main-nav__item main-nav__item--active">
+            <a>Магазин</a>
           </li>
-          <li>
+          <li class="main-nav__item">
             <a href="price.php">Прайс-лист</a>
           </li>
-          <li class="active">
-            <a href="#">Магазин</a>
+          <li class="main-nav__item">
+            <a href="vh-vw.php">VH и VW</a>
           </li>
-          <li>
-            <a href="#">Контакты</a>
+          <li class="main-nav__item">
+            <a href="flex.php">flex</a>
           </li>
         </ul>
+
+        <ul class="main-nav__user-items">
+          <li class="main-nav__user-item">
+            <a class="main-nav__user-login" href="#" title="Войти">Вход</a>
+          </li>
+        </ul>
+
+       </div>
       </nav>
-      <div class="user-block">
-        <a class="login" href="#">ВХОД</a>
-      </div>
-    </div> <!-- /container  -->
-  </header>
+    </header>
 
   <footer  class="main-footer">
     <div class="container clearfix">
@@ -60,5 +71,8 @@
       </section>
     </div>
   </footer>
+
+  <script src="../js/menuToggle.js" type="text/javascript"></script>
+
  </body>
 </html>

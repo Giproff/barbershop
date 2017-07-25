@@ -31,10 +31,10 @@
               <a>Главная</a>
             </li>
             <li class="main-nav__item">
-              <a href="#">Наши работы</a>
+              <a href="magazine.php">Магазин</a>
             </li>
             <li class="main-nav__item">
-              <a href="#">Запись</a>
+              <a href="#">Прайс-лист</a>
             </li>
             <li class="main-nav__item">
               <a href="vh-vw.php">VH и VW</a>
