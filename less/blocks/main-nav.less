@@ -345,7 +345,6 @@ outline-offset:  -3px; */
 
     .main-nav {
         width: auto;
-        min-height: 70px;
         margin: 0;
 
         background-color: black;
@@ -361,7 +360,7 @@ outline-offset:  -3px; */
             padding: 25px 40px;
         }
     }
-
+    // прячем переключатель меню
     .main-nav__toggle {
         display: none;
     }
@@ -378,25 +377,26 @@ outline-offset:  -3px; */
         flex-direction: row;
         justify-content: space-between;
 
-        outline: 2px solid red;
-        outline-offset: 3px;
+        outline: 1px solid red;
+        outline-offset: 1px;
     }
 
     .main-nav__items {
         float: left;
         width: 570px;
-        outline: 2px solid yellow;
-        outline-offset: -3px;
+        outline: 1px solid yellow;
+        outline-offset: -1px;
     }
 
     .main-nav__item {
 
+        float: left;
         margin-right: 32px;
 
         &:last-child {
             margin-right: 0;
         }
-
+        // подчеркивание активного пункта меню
         &--active {
             position: relative;
 
@@ -437,7 +437,7 @@ outline-offset:  -3px; */
     .main-nav__user-items {
         float: right;
         width: 60px;
-        min-height: 70px;
+
         outline: 2px solid yellow;
         outline-offset: -3px;
     }
@@ -463,7 +463,7 @@ outline-offset:  -3px; */
 
         padding:  25px 20px;
         text-decoration:none;
-
+        font-size: none;
         &::before {
             content: "";
             position: absolute;

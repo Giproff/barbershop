@@ -68,8 +68,9 @@
 
       <table class="stats__items">
         <tr>
-          <td class="stats__value">1 500<sup>*</sup>
-        </td>
+          <td class="stats__value">
+            1 500<sup>*</sup>
+          </td>
         <td class="stats__field">
             рублей <br>вложений</td>
         </tr>
