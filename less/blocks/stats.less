@@ -76,19 +76,19 @@
 .stats__items tr {
     color: #ffffff;
 
-    background-color: #404040;
+    //background-color: #404040;
 
-    &:nth-child(2) {
+    &:nth-child(2n) {
         background-color: #4e4e4e;
     }
 
-    &:nth-child(3) {
+    &:nth-child(2n+1) {
         background-color: #353535;
     }
-
+/*
     &:nth-child(4) {
         background-color: #404040;
-    }
+    }*/
 }
 
 .stats__value,
@@ -200,8 +200,8 @@
     }
 
     .stats__legend {
-        float: left;
         display: block;
+        float: left;
 
         font-size: 20px;
         line-height: 20px;
