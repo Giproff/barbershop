@@ -19,10 +19,10 @@
               <a href="index.php">Главная</a>
             </li>
             <li class="main-nav__item">
-              <a href="#">Наши работы</a>
+              <a href="#">Магазин</a>
             </li>
             <li class="main-nav__item">
-              <a href="#">Записаться</a>
+              <a href="#">Прайс-лист</a>
             </li>
             <li class="main-nav__item">
               <a href="vh-vw.php">VH и VW</a>
@@ -47,6 +47,11 @@
            <div>2</div>
            <div>3</div>
            <div>4</div>
+           <div>5</div>
+           <!-- <div>6</div>
+           <div>7</div>
+           <div>8</div>
+           <div>9</div> -->
       </div>
       <div class="block-mock"></div>
   </body>
