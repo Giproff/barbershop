@@ -22,7 +22,7 @@
               <a href="#">Магазин</a>
             </li>
             <li class="main-nav__item">
-              <a href="#">Прайс-лист</a>
+              <a href="catalog.php">Прейскурант</a>
             </li>
             <li class="main-nav__item">
               <a href="vh-vw.php">VH и VW</a>

@@ -29,22 +29,28 @@
 
     @media @tablet-widths  {
 
-        width: 640px;
+        width: 784px;
 
     }
 
 	@media @desktop-widths  {
 
-        width: 992px;
+        width: 1158px;
 
     }
 }
-
+// "Резиновый" центровщик
 .container-fluid () {
     width: auto;
-    @media @tablet-widths  {
-        width: 80%;
-        max-width: 770px;
+
+    @media @tablet-widths-only {
+        width: 84%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    @media @desktop-widths  {
+        width: 96%;
+        max-width: 960px;
         margin: 0 auto;
     }
 }

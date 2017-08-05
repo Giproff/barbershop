@@ -34,7 +34,7 @@
               <a href="magazine.php">Магазин</a>
             </li>
             <li class="main-nav__item">
-              <a href="#">Прайс-лист</a>
+              <a href="catalog.php">Прейскурант</a>
             </li>
             <li class="main-nav__item">
               <a href="vh-vw.php">VH и VW</a>
@@ -62,11 +62,12 @@
         это выгодно!</b>
         <p class="stats__intro">Мужская стрижка требует точного подхода. Обратимся к статистике:</p>
         <small class="stats__legend stats__legend--top">
-          <sup>*</sup> — приведённые данные ложь
+          <sup>*</sup>— приведённые данные ложь
         </small>
       </header>
 
       <table class="stats__items">
+
         <tr>
           <td class="stats__value">
             1 500<sup>*</sup>
@@ -96,6 +97,7 @@
             лайков<br> и комплиментов
           </td>
         </tr>
+
       </table>
 
       <small class="stats__legend stats__legend--bottom">
