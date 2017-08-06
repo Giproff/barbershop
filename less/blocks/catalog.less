@@ -1,0 +1,151 @@
+/* Файл blocks/catalog.less */
+// Прейскурант
+
+@import "../variables.less";
+@import "../mixins.less";
+
+.price__table {
+    border-collapse: collapse;
+}
+
+.price {
+    margin: 50px 0;
+    padding: 40px 20px;
+    color: #fff;
+    background-color: #353535;
+    box-shadow: 0 0 5px #666;
+}
+
+.price__header {
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price__table {
+
+    td{
+        padding: 10px;
+        /* border: 2px solid #ccc; */
+    }
+}
+
+.price__table {
+    display: block;
+    font-size: 20px;
+    line-height: 27px;
+
+    tbody {
+        display: block;
+    }
+
+    tr {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 30px 0;
+        /* outline: 2px solid yellow;
+        outline-offset: 5px; */
+    }
+
+    td {
+        display: block;
+        padding: 10px;
+        /* border: 2px solid #ccc; */
+    }
+
+    .col-1 {
+        display: none;
+    }
+
+    .col-2 {
+        padding-left: 0;
+        font-weight: bold;
+    }
+
+    .col-3 {
+        order: 4;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .col-4 {
+        padding-right: 0;
+    }
+}
+
+.price__discount {
+    position: relative;
+    height: 90px;
+    margin-top: 25px;
+    padding: 30px 10px;
+    padding-left: 110px;
+    border: 2px solid #5e5e5e;
+}
+
+.price__discount::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 57px;
+    height: 57px;
+    transform: translateY(-50%);
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+// Планшетная версия
+
+@media (min-width: @screen_md) {
+    .price_inner{
+        width: 640px;
+        margin: auto;
+    }
+
+    .price__header {
+        margin-bottom: 50px;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .price__table {
+        display: table;
+
+        tbody {
+            display: table-row-group;
+        }
+
+        tr {
+            display: table-row;
+        }
+
+        td {
+            display: table-cell;
+            padding: 12px 19px;
+            vertical-align: top;
+            border: 2px solid #5e5e5e;
+        }
+
+        .col-1 {
+            display: table-cell;
+        }
+
+        .col-2 {
+            padding: 12px 19px;
+        }
+
+        .col-3 {
+            width: auto;
+            padding: 12px 19px;
+        }
+
+        .col-4 {
+            padding: 12px 19px;
+        }
+
+    }
+}
