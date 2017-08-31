@@ -1,10 +1,11 @@
 /* Файл blocks/catalog.less */
+
 // Прейскурант
 
 @import "../variables.less";
 @import "../mixins.less";
 
-.price__table {
+table {
     border-collapse: collapse;
 }
 
@@ -23,14 +24,6 @@
     line-height: 1;
     text-align: center;
     text-transform: uppercase;
-}
-
-.price__table {
-
-    td{
-        padding: 10px;
-        /* border: 2px solid #ccc; */
-    }
 }
 
 .price__table {
@@ -79,9 +72,10 @@
 
 .price__discount {
     position: relative;
-    height: 90px;
-    margin-top: 25px;
-    padding: 30px 10px;
+    /* height: 90px;
+    margin-top: 25px; */
+
+    padding: 35px 10px;
     padding-left: 110px;
     border: 2px solid #5e5e5e;
 }
@@ -100,7 +94,20 @@
 
 // Планшетная версия
 
-@media (min-width: @screen_md) {
+@media  @tablet-widths {
+
+    .page-header {
+
+       position: relative;
+       display: block;
+
+       order: 1;
+       //height: 43px;
+       //padding-bottom: 0;
+
+       background-color: green;
+    }
+
     .price_inner{
         width: 640px;
         margin: auto;
@@ -110,6 +117,7 @@
         margin-bottom: 50px;
         font-size: 40px;
         text-align: left;
+        background-color: blue;
     }
 
     .price__table {
@@ -147,5 +155,63 @@
             padding: 12px 19px;
         }
 
+    }
+}
+
+// Десктопная версия
+
+@media @desktop-widths {
+
+    .page-header {
+        position: relative;
+
+        display: block;
+
+        order: 1;
+        //height: 43px;
+
+     /*    padding-bottom: 75px; */
+        background-color: green;
+        background-size: cover;
+    }
+
+    .price__inner {
+        width: 960px;
+        margin: auto;
+    }
+
+    .price__header {
+        padding-left: 70px;
+        background-color: green;
+    }
+
+    .price__columns {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .price__table {
+        //width: 630px;
+    }
+    .price__discount {
+        width: 270px;
+        height: auto;
+        margin: 0;
+        padding: 10px 50px;
+        padding-top: 190px;
+        font-size: 18px;
+        line-height: 27px;
+        text-transform: none;
+        font-weight: normal;
+}
+
+    .price__discount::before {
+
+        top: 25px;
+        left: 50%;
+        width: 140px;
+        height: 140px;
+        transform: translateY(0) translateX(-50%);
     }
 }

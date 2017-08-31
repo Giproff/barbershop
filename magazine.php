@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Магазин Барбершоп мобильный</title>
+    <title>Наши работы</title>
 
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -13,6 +13,11 @@
     <header class="page-header">
       <h1 class="visually-hidden">Барбершоп «Бородинский» — истинно мужская классика</h1>
       <div class="page-header__logo">
+        <picture>
+          <source media="(min-width: 960px)"  srcset="img/logotype-desktop.svg">
+          <source media="(min-width: 784px)"  srcset="img/logotype-tablet.svg">
+          <img src="img/logotype-mobile.svg" width="370" height="153">
+        </picture>
       </div>
 
       <nav class="main-nav main-nav--closed main-nav--nojs">
@@ -27,7 +32,7 @@
             <a href="index.php">Главная</a>
           </li>
           <li class="main-nav__item main-nav__item--active">
-            <a>Магазин</a>
+            <a>Наши работы</a>
           </li>
           <li class="main-nav__item">
             <a href="price.php">Прайс-лист</a>

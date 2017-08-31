@@ -10,13 +10,25 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- <script>
+    // Picture element HTML5 shiv
+    document.createElement( "picture" );
+    </script>
+    <script src="js/picturefill.js" async></script> -->
   </head>
 
   <body>
     <header class="page-header">
       <h1 class="visually-hidden">Барбершоп «Бородинский» — истинно мужская классика</h1>
       <div class="page-header__logo">
+<!--         <img src="img/logotype-mobile.svg" width="320" height="150" alt="Барбершоп 'Бородинский'"> -->
+        <picture>
+          <source media="(min-width: 960px)"  srcset="img/logo3.png">
+          <source media="(min-width: 784px)"  srcset="img/logo2.png">
+          <img srcset="img/logotype-mobile.svg" width="370" height="153" alt="Барбершоп `Бородинский`">
+        </picture>
       </div>
+
 
       <nav class="main-nav main-nav--closed main-nav--nojs">
 
@@ -31,7 +43,7 @@
               <a>Главная</a>
             </li>
             <li class="main-nav__item">
-              <a href="magazine.php">Магазин</a>
+              <a href="magazine.php">Наши работы</a>
             </li>
             <li class="main-nav__item">
               <a href="catalog.php">Прейскурант</a>

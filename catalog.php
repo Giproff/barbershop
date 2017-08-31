@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Проект Барбершоп "Бородинский" мобильный </title>
+    <title>Пример адаптивной таблицы </title>
 
 <!-- В этом проекте фонты подключаются локально через класс .scaffolding.less,
      а не через сайт Googl
@@ -13,10 +13,11 @@
   </head>
 
   <body>
+
     <header class="page-header">
-      <h1 class="visually-hidden">Барбершоп «Бородинский» — истинно мужская классика</h1>
+      <!-- <h1 class="visually-hidden">Барбершоп «Бородинский» — истинно мужская классика</h1>
       <div class="page-header__logo">
-      </div>
+      </div> -->
 
       <nav class="main-nav main-nav--closed main-nav--nojs">
 
@@ -53,44 +54,46 @@
         </div>
       </nav>
     </header>
-    <section class="price">
+
+    <section class="price price__inner">
       <h1 class="price__header">Прейскурант</h1>
       <table class="price__table">
         <tr>
           <td class="col-1">1</td>
           <td class="col-2">Классическая стрижка</td>
-          <td class="col-3">(с мытьем головы)</td>
+          <td class="col-3">с мытьем головы</td>
           <td class="col-4">1 500 руб.</td>
         </tr>
         <tr>
           <td class="col-1">2</td>
           <td class="col-2">Современный вариант</td>
-          <td class="col-3">(с мытьем головы)</td>
+          <td class="col-3">с мытьем головы</td>
           <td class="col-4">1 500 руб.</td>
         </tr>
         <tr>
           <td class="col-1">3</td>
           <td class="col-2">Индивидуальный подход</td>
-          <td class="col-3">(с мытьем головы)</td>
+          <td class="col-3">с мытьем головы</td>
           <td class="col-4">2 000 руб.</td>
         </tr>
         <tr>
           <td class="col-1">4</td>
           <td class="col-2">Бритье бороды</td>
-          <td class="col-3">(без мытья)</td>
-          <td class="col-4">1 500 руб.</td>
+          <td class="col-3">без мытья</td>
+          <td class="col-4">500 руб.</td>
         </tr>
         <tr>
           <td class="col-1">5</td>
           <td class="col-2">Бритье головы</td>
-          <td class="col-3">(с мытьем головы)</td>
-          <td class="col-4">1 800 руб.</td>
+          <td class="col-3">с мытьем головы</td>
+          <td class="col-4">1 000 руб.</td>
         </tr>
     </table>
     <p class="price__discount">
       С 10:00 до 14:00 скидка 20%
     </p>
     </section>
+
         <!-- Футер -->
     <footer class="page-footer">
       <div class="page-footer__wrapper">
