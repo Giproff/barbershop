@@ -1,0 +1,34 @@
+/* Файл blocks/page-main.less */
+@import "../variables.less";
+@import "../mixins.less";
+
+
+@media @mobile-widths-only {
+    .page-header {
+       position: relative;
+       z-index: 1;
+
+      /*  min-height: 135px;
+
+       background: @bg-darkgrey url("/img/grey_back.png") no-repeat center top;
+        */
+    }
+
+
+    .page-header__logo {
+
+        width: 100%;
+        height: 85px;
+
+        z-index: 2;
+    }
+
+   .page-header__logo img {
+        position: relative;
+
+        height: auto;
+        margin-top: 27px;
+    }
+}
+
+

@@ -1,0 +1,65 @@
+/* Файл blocks/page-title.less */
+@import "../variables.less";
+@import "../mixins.less";
+
+.page-title {
+    padding: 28px 0 30px;
+
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.page-title__wrapper {
+    .container();
+
+    position: relative;
+}
+
+.page-title__text {
+    margin: 0;
+
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.page-title__to-main {
+    display: none;
+}
+
+@media @tablet-widths  {
+    .page-title__wrapper {
+        width: auto;
+        padding: 0 64px;
+    }
+
+    .page-title {
+        margin-bottom: 15px;
+        padding: 30px 0;
+    }
+
+    .page-title__to-main {
+        position: absolute;
+        top: 0;
+        right: 64px;
+
+        display: block;
+    }
+
+    .page-title__text {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+@media @desktop-widths  {
+    .page-title {
+        margin-bottom: 57px;
+        padding: 29px 0;
+    }
+    .page-title__wrapper {
+        .container();
+    }
+}

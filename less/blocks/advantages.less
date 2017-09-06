@@ -21,7 +21,7 @@
 }
 
 .advantages__item {
-    min-height: 145px; /* Временно */
+   /*  min-height: 145px; Временно */
     margin-bottom: 23px;
     padding: 0 44px;
     padding-top: 125px;
@@ -31,49 +31,50 @@
     display: none;
 }
  */
+
+@media @mobile-widths-only {
+
+    .advantages {
+
+        .triangle (@bg-darkgrey);
+    }
+
+
+    .advantages__item  {
+       display: none;
+    }
+
+    .advantages__item:first-child {
+       display: block;
+    }
+
+    .advantages__item img {
+
+        position: relative;
+        margin-left: 40%;
+
+    }
+
     .advantages__item-title {
         font-size: 30px;
         text-align: center;
 
     }
 
-@media @mobile-widths-only {
+    .advantages__item p {
+        padding-left: 20px;
+        font-size: 16px;
+        text-align: center;
 
-    .advantages {
-
-        position: relative;
-
-        &::before {
-            content: "";
-            position: absolute;
-
-            bottom: 0;
-            height: 34px;
-            width: 100%;
-
-            background: transparent url("/img/angle div-mobile.png") no-repeat center top;
-        }
-    }
 }
 
-@media @tablet-widths-only {
+}
+
+@media @tablet-widths {
 
     .advantages {
 
-        //.container-fluid ();
-        position: relative;
-
-        &::before {
-            content: "";
-            position: absolute;
-
-            bottom: 0;
-            height: 68px;
-            max-width: 991px;
-            width: 100%;
-
-            background: transparent url("/img/angle div-desktop.png") no-repeat center top;
-        }
+       .triangle (@bg-darkgrey);
     }
 
     .advantages__wrapper {
@@ -144,18 +145,7 @@
 
     .advantages {
 
-    position: relative;
-
-    &::before {
-        content: "";
-        position: absolute;
-
-        bottom: 0;
-        height: 68px;
-        width: 100%;
-
-        background: transparent url("/img/angle div-desktop.png") no-repeat center top;
-    }
+       .triangle (@bg-darkgrey);
 }
      .advantages__wrapper {
         /*min-height: 275px;   Временно для сетки */
@@ -186,11 +176,11 @@
         padding: 0  18px;
         padding-top: 130px;
     }
-/*
+
     .advantages__item:nth-child(n+2) {
         display: table-cell;
     }
-
+/*
     .advantages__item:nth-child(2) {
         width: 200px;
         padding-left: 60px;

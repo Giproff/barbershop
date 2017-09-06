@@ -1,0 +1,1366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"bo",
+				"border-top"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"mai",
+				"margin-bottom"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"page",
+				"page-title.less"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"table-row",
+				"table-row-group"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"n",
+				"no-repeat"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"nav",
+				"navMain"
+			],
+			[
+				"re",
+				"remove\t.remove()"
+			],
+			[
+				"q",
+				"querySelector"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"cu",
+				"cursor"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"e",
+				"center"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"main",
+				"margin-top"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"line-",
+				"outline-style"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"a",
+				"alt\tAttr"
+			],
+			[
+				"su",
+				"sup\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"con",
+				"content\tAttr"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"mo",
+				"modal-content-close"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"pattern",
+				"pattern-white"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"f",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 9151,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "less/blocks/page-header.less",
+			"settings":
+			{
+				"buffer_size": 3297,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "less/variables.less",
+			"settings":
+			{
+				"buffer_size": 483,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "less/blocks/advantages.less",
+			"settings":
+			{
+				"buffer_size": 3795,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "less/mixins.less",
+			"settings":
+			{
+				"buffer_size": 2541,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "less/blocks/works-list.less",
+			"settings":
+			{
+				"buffer_size": 573,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Hao",
+				"HaoGist: About"
+			],
+			[
+				"HaoGist:",
+				"HaoGist: Create Public Gist"
+			],
+			[
+				"Package Control: Gist",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control:",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Create new LiveReload plugin"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			]
+		],
+		"width": 357.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/OpenServer/domains/barbershop.loc",
+		"/C/OpenServer/domains/barbershop.loc/less",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks"
+	],
+	"file_history":
+	[
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/works-list.less",
+		"/C/OpenServer/domains/barbershop.loc/magazine.php",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/works-item.less",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/page-main.less",
+		"/C/OpenServer/domains/barbershop.loc/css/blocks/news.css",
+		"/C/OpenServer/domains/barbershop.loc/less/variables.less",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/advantages.less",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/main-nav.less",
+		"/C/OpenServer/domains/barbershop.loc/flex.php",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/stats.less",
+		"/C/OpenServer/domains/barbershop.loc/catalog.php",
+		"/C/OpenServer/domains/barbershop.loc/index.php",
+		"/C/OpenServer/domains/barbershop.loc/vh-vw.php",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/page-header.less",
+		"/C/OpenServer/domains/barbershop.loc/less/mixins.less",
+		"/C/OpenServer/domains/barbershop.loc/less/style.less",
+		"/C/OpenServer/domains/barbershop.loc/css/style.css",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/page-title.less",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/works.less",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/catalog.less",
+		"/C/OpenServer/domains/barbershop.loc/js/menutoggle.js",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/outlines.less",
+		"/C/OpenServer/domains/barbershop.loc/price.php",
+		"/C/OpenServer/domains/barbershop.loc/less/blocks/flex.less",
+		"/c/users/georg/appdata/local/temp/Default (Windows).sublime-keymap",
+		"/C/OpenServer/domains/barbershop.ex/index.php",
+		"/c/users/georg/appdata/local/temp/index.php",
+		"/c/users/georg/appdata/local/temp/flex.php",
+		"/c/users/georg/appdata/local/temp/magazine.php",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/HaoGist/config/settings/HaoGist.sublime-settings",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/User/HaoGist.sublime-settings",
+		"/c/users/georg/appdata/local/temp/gistfile1.txt",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/Gist/Default (Windows).sublime-keymap",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/page-header.less",
+		"/C/OpenServer/domains/barbershop.ex/less/mixins.less",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/main-nav.less",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/news.less",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/advantages.less",
+		"/C/OpenServer/domains/barbershop.ex/js/menutoggle.js",
+		"/C/OpenServer/domains/barbershop.ex/less/style.less",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/stats.less",
+		"/C/OpenServer/domains/barbershop.ex/less/variables.less",
+		"/C/OpenServer/domains/barbershop.ex/css/style.css",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/outlines.less",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/flex.less",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/scaffolding.less",
+		"/C/OpenServer/domains/barbershop.ex/flex.php",
+		"/C/OpenServer/domains/barbershop.ex/css/mixins.css",
+		"/C/OpenServer/domains/barbershop.ex/vh-vw.php",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/vh-vw.less",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/vh_vw.less",
+		"/C/OpenServer/domains/barbershop.ex/.gitignore",
+		"/C/OpenServer/domains/barbershop.ex/css/style2_stat.css",
+		"/C/OpenServer/domains/barbershop.ex/indexes/index-stat.php",
+		"/C/OpenServer/domains/barbershop.ex/js/popup.js",
+		"/C/OpenServer/domains/barbershop.ex/less/blocks/page-footer.less",
+		"/C/OpenServer/domains/barbershop.ex/css/style2.css",
+		"/C/OpenServer/domains/barbershop.ex/css/style3.css",
+		"/C/OpenServer/domains/barbershop.ex/css/style4.css",
+		"/C/OpenServer/domains/barbershop.ex/img/User_32x32.png",
+		"/C/OpenServer/domains/barbershop.ex/barber-project.sublime-project",
+		"/C/OpenServer/domains/barbershop.ex/indexes/index1.php",
+		"/C/OpenServer/domains/barbershop.ex/indexes/index.php",
+		"/C/OpenServer/domains/barbershop.ex/img/bg-header.jpg",
+		"/C/OpenServer/domains/barbershop.ex/img/advantage-3-mini.png",
+		"/C/OpenServer/domains/barbershop.ex/img/favicon.ico",
+		"/C/OpenServer/domains/barbershop.ex/price.php",
+		"/C/OpenServer/domains/barbershop.ex/css/normalize.css",
+		"/C/OpenServer/domains/barbershop.ex/css/variables.css",
+		"/C/OpenServer/domains/barbershop.ex/indexes/index-mob.php",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/Goto-CSS-Declaration/goto_css_declaration.sublime-settings",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/User/goto_css_declaration.sublime-settings",
+		"/C/Users/Georg/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".container-fluid",
+			"3",
+			"main-nav__wrapper",
+			"float",
+			"main-nav__item",
+			"bold",
+			"upper",
+			"mock",
+			"table",
+			"login",
+			"clearfix",
+			"clear",
+			"btn",
+			"button",
+			"btn",
+			"pointer",
+			"main-header",
+			"sprite",
+			"login",
+			"footer-social",
+			"background-position",
+			"small devices",
+			"mobile",
+			"img",
+			"Sign Up",
+			"SignUp",
+			"newsModal",
+			" input[type=\"text\"],",
+			"input[type=\"text\"],",
+			"input[",
+			"input[type=",
+			"input[type=\"text\"]",
+			"input[type=\"text\"],",
+			"absolute",
+			"проект",
+			"dolor"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"main-nav__item"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1082,
+								1082
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1095,
+										1096
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1081,
+										1082
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt (SL).tmTheme",
+							"git_savvy.repo_path": "C:\\OpenServer\\domains\\barbershop.loc",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/blocks/page-header.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"class_or_id": "page-header",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt (SL).tmTheme",
+							"git_savvy.repo_path": "C:\\OpenServer\\domains\\barbershop.loc",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 578.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "less/variables.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"class_or_id": "page-header",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt (SL).tmTheme",
+							"git_savvy.repo_path": "C:\\OpenServer\\domains\\barbershop.loc",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "less/blocks/advantages.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										193,
+										194
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										111,
+										112
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt (SL).tmTheme",
+							"git_savvy.repo_path": "C:\\OpenServer\\domains\\barbershop.loc",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "less/mixins.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										342,
+										343
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										310,
+										311
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt (SL).tmTheme",
+							"git_savvy.repo_path": "C:\\OpenServer\\domains\\barbershop.loc",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 279.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "less/blocks/works-list.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										159,
+										160
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										145,
+										146
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Cobalt (SL).tmTheme",
+							"git_savvy.repo_path": "C:\\OpenServer\\domains\\barbershop.loc",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 130.0
+	},
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "barber-project.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"css\\style2.css"
+			],
+			[
+				"a",
+				"C:\\OpenServer\\domains\\syblime\\image\\aphorism2.jpg"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\OpenServer\\domains\\pogodyn.com\\pogodyn.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 173.0,
+		"last_filter": "modal",
+		"selected_items":
+		[
+			[
+				"modal",
+				"modal-content-close"
+			],
+			[
+				"",
+				"main-navigation"
+			],
+			[
+				" ",
+				"footer-contacts"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

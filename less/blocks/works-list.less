@@ -1,0 +1,41 @@
+/* Файл blocks/works-list.less */
+@import "../variables.less";
+@import "../mixins.less";
+
+.works-list {
+
+    padding-bottom: 14px;
+
+   .triangle (@bg-lightgrey);
+}
+
+@media @tablet-widths  {
+    .works-list__wrapper {
+        padding: 0  64px;
+    }
+}
+
+
+@media @desktop-widths  {
+    .works-list__wrapper {
+        .container();
+    }
+
+    .works-list {
+        padding-bottom: 47px;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .works-list__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        jusify-content: space-between;
+    }
+}
+
+
+
+

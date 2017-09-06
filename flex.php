@@ -19,7 +19,7 @@
               <a href="index.php">Главная</a>
             </li>
             <li class="main-nav__item">
-              <a href="#">Магазин</a>
+              <a href="magazine.php">Наши работы</a>
             </li>
             <li class="main-nav__item">
               <a href="catalog.php">Прейскурант</a>
