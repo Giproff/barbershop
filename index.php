@@ -9,6 +9,11 @@
      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic"> -->
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+  <!-- Только для IE < 9, чтобы понимал HTML5 -->
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- <script>
     // Picture element HTML5 shiv
@@ -23,12 +28,11 @@
       <div class="page-header__logo">
 <!--         <img src="img/logotype-mobile.svg" width="320" height="150" alt="Барбершоп 'Бородинский'"> -->
         <picture>
-          <source media="(min-width: 960px)"  srcset="img/logo3.png">
-          <source media="(min-width: 784px)"  srcset="img/logo2.png">
+          <source media="(min-width: 992px)"  srcset="img/logo3.png">
+          <source media="(min-width: 768px)"  srcset="img/logo2.png">
           <img srcset="img/logotype-mobile.png"  alt="Барбершоп `Бородинский`">
         </picture>
       </div>
-
 
       <nav class="main-nav main-nav--closed main-nav--nojs">
 
@@ -64,6 +68,7 @@
 
         </div>
       </nav>
+
     </header>
 
     <section class="stats stats--closed">
