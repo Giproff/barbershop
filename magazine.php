@@ -74,8 +74,8 @@
         <article class="works-item works-item--work-of-month">
           <div class="works-item__img-wrapper">
             <picture>
-              <source media="(min-width: 961px)"  srcset="img/photo-1-desktop.jpg 1x, img/photo-1-desktop@2x.jpg 2x">
-              <source media="(min-width: 784px)" srcset="img/photo-1-tablet.jpg 1x, img/photo-1-tablet@2x.jpg 2x">
+              <source media="(min-width: 992px)"  srcset="img/photo-1-desktop.jpg 1x, img/photo-1-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/photo-1-tablet.jpg 1x, img/photo-1-tablet@2x.jpg 2x">
               <img src="img/photo-1-mobile.jpg" srcset="img/photo-1-mobile@2x.jpg 2x" alt="Пример нашей работы" class="works-item__img">
             </picture>
           </div>
