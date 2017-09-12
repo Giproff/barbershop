@@ -22,7 +22,7 @@
         <picture>
           <source media="(min-width: 992px)"  srcset="img/logo3.png">
           <source media="(min-width: 768px)"  srcset="img/logo2.png">
-          <img srcset="img/logotype-mobile.png alt="Барбершоп `Бородинский`">
+          <img srcset="img/logotype-mobile.png" alt="Барбершоп `Бородинский`">
         </picture>
       </div>
 
