@@ -2,6 +2,7 @@
 @import "../variables.less";
 @import "../mixins.less";
 
+/*
 .page-footer,
 .page-footer__copyright-link {
      & a {
@@ -9,4 +10,145 @@
             color: #f7f4f1;
             text-decoration: none;
         }
+}
+== FOOTER ==*/
+
+.page-footer {
+
+  color: #ffffff;
+  background-color: #212121;
+  // background-image: url("../img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+
+  padding: 60px 0;
+}
+
+.page-footer__wrapper {
+  display: flex;
+  .container-fluid();
+}
+
+.page-footer__contacts,
+.page-footer__copyright {
+  margin: 0;
+}
+
+.page-footer__copyright {
+  margin-left: auto;
+}
+
+.page-footer__contacts {
+  width: 320px;
+
+  margin-right: 80px;
+}
+
+.page-footer__contacts a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.page-footer__contacts a:hover,
+.page-footer__contacts a:focus {
+  text-decoration: none;
+}
+
+.page-footer__social {
+  width: 145px;
+
+  text-align: center;
+}
+/*
+.page-footer__social .social-container-header {
+  margin-bottom: 13px;
+} */
+
+
+.social-container {
+  width: 145px;
+
+  text-align: center;
+}
+
+.social-container .social-container-header {
+  margin-bottom: 13px;
+}
+
+.social-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-container .social-list {
+  margin-left: 1px;
+}
+
+.social-list li {
+  width: 43px;
+  height: 43px;
+
+  background-color: #000000;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+
+  background-color: #000000;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #ffffff;
+}
+
+.social-link:hover path,
+.social-link:focus path {
+  fill: #000000;
+}
+
+.page-footer b {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.page-footer__copyright {
+  text-align: center;
+
+  width: 150px;
+}
+
+.page-footer__copyright b {
+  margin-left: 10px;
+  margin-top: -1px;
+}
+
+.page-footer__copyright .page-footer__copyright-link {
+  display: block;
+  margin-right: 0;
+  margin-left: 11px;
+  margin-top: -2px;
+  padding-right: 27px;
+}
+
+.page-footer__copyright .page-footer__copyright-link:hover,
+.page-footer__copyright .page-footer__copyright-link:focus {
+  color: #000000;
+
+  background-color: #ffffff;
 }

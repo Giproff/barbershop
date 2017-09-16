@@ -103,7 +103,7 @@
     background-repeat: repeat;
  }
 
-.triangle (@bg-color) {
+.triangle (@triangle-color, @bg-color) {
     position: relative;
      &::after {
         content: "";
@@ -119,16 +119,16 @@
             linear-gradient(
                 to top right,
                 transparent 50%,
-                @bg-color 50%
+                @triangle-color 50%
             ),
             linear-gradient(
                 to top left,
                 transparent 50%,
-                @bg-color  50%
+                @triangle-color  50%
             );
         background-repeat: no-repeat;
         background-position: 0  0,  100%  0;
         background-size: 50.1%  100%;
-        background-color: #353535;
+        background-color: @bg-color;
     }
 }

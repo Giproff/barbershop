@@ -195,27 +195,39 @@
     </section>
 
 
-  <footer  class="main-footer">
-    <div class="container clearfix">
-      <section class="footer-contacts">
-        Барбершоп "Бородинский"<br>
-        Адрес: г. Санкт-Петербург, пр.Лесной, д.13/8<br>
-        <a href="#">Как Нас найти?</a>
-        <br>
-        Телефон: +7 (812) 542-99-53
-      </section>
-      <section class="footer-social">
-        <p>Давайте дружить !</p>
-        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-      </section>
-      <section class="footer-copyright">
-        <p>Разработано:</p>
-        <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-      </section>
-    </div>
-  </footer>
+    <!-- Футер -->
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <p class="page-footer__contacts">
+          <b>Барбершоп «Бородинский»</b>
+          <br>
+          г. Санкт-Петербург, ул. Большая Конюшенная 19/8
+          <br>
+          <a href="tel:+78125556666">
+            <span class="page-footer__contacts-hidden">Тел.:</span> +7 (812) 555-66-66
+          </a>
+        </p>
+        <p class="page-footer__social">
+          <span class="social-links">
+            <a class="social-link social-link--vk" href="https://vk.com/htmlacademy">
+              Мы в Вконтакте
+            </a>
+            <a class="social-link social-link--fb" href="https://www.facebook.com/htmlacademy">
+              Мы в Фейсбуке
+            </a>
+            <a class="social-link social-link--in" href="https://www.instagram.com/htmlacademy">
+              Мы в Инстаграме
+            </a>
+          </span>
+        </p>
+        <p class="page-footer__copyright">
+          Разработано :<br>
+          <a class="btn page-footer__copyright-link" href="https://htmlacademy.ru/intensive/daptive"> HTML ACADEMY
+          </a>
+        </p
+          >
+      </div>
+    </footer>
 
   <script src="../js/menuToggle.js" type="text/javascript"></script>
 
